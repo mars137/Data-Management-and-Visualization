@@ -1,7 +1,7 @@
 import pandas
 import numpy
 
-data = pandas.read_csv('/home/Coursera/DataAalysis/CourseData.csv', low_memory=False)
+data = pandas.read_csv('/home/Coursera/DataAnalysis/CourseData.csv', low_memory=False)
 
 # bug fix for display formats to avoid run time errors
 pandas.set_option('display.float_format', lambda x:'%f'%x)
